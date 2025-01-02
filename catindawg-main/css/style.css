@@ -192,7 +192,7 @@ body {
 
 .large-image-container {
   width: 100%;
-  max-height: 350px; /* Adjust height as needed */
+  max-height: 380px; /* Adjust height as needed */
   overflow: hidden; /* Ensures the image doesn’t spill out */
   display: flex;
   justify-content: center;
@@ -204,8 +204,8 @@ body {
 
 .large-image-container img {
   width: 100%;
-  height: auto; /* Keeps the aspect ratio intact */
-  object-fit: cover; /* Ensures the image fills the container neatly */
+  height: auto; 
+  object-fit: cover; 
 }
 
 /* Container for the tags and heading */
@@ -226,7 +226,7 @@ body {
 .tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* Increased space between the buttons */
+    gap: 80px; /* Increased space between the buttons */
     justify-content: center;
 }
 
@@ -270,7 +270,6 @@ body {
 }
 
 
-
   main {
     padding: 20px;
     margin-top: 70px; /* Space above the buttons */
@@ -284,6 +283,8 @@ body {
     padding: 20px;
     background-color: #f9f9f9;
     scroll-behavior: smooth;
+    display: flex; 
+
   }
 
   main2 .book-card {
@@ -305,8 +306,8 @@ body {
   }
 
   .book-layout {
-    display: flex; /* Align featured book and books-container side by side */
-    gap: 20px; /* Space between featured book and books container */
+    display: flex; 
+    gap: 20px; 
   }
   
   
@@ -413,7 +414,7 @@ body {
   
   
   .twilight-quote {
-    background-color: #f3f3f3;
+    background-color: #1a1616;
     padding: 20px;
     text-align: center;
     margin: 20px 0;
@@ -428,7 +429,7 @@ body {
   .quote-text {
     font-size: 18px;
     font-style: italic;
-    color: #555;
+    color: #fdf4f4;
   }
   /* New Info Section Styling */
 .info-section {
